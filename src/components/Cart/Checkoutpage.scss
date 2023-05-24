@@ -1,0 +1,29 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .form{
+        .warnmsg{
+            margin: 10px auto;
+            color: red;
+            font-weight: bold;
+        }
+        display: flex;
+        flex-direction: column;
+        width: 70vw;
+        padding: 50px;
+        justify-content: center;
+        input {
+            margin: 10px 0;
+            padding: 10px;
+        }
+        .checkout-cta{
+            padding: 10px 16px !important;
+            margin: 20px auto;
+            background-color: #8e2de2;
+            color: white;
+            border: none;
+            outline: none;
+        }
+    }
+}
